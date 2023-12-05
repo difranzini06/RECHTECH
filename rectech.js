@@ -89,7 +89,7 @@ app.post("/cadastronotafiscal", async(req,res)=>{
 
     const numeroexiste = await NotaFiscal.findOne({numero:numero})
     if(numeroexiste){
-        return res.status(400).json({error:"este numero de produto já foi usado"})
+        return res.status(400).json({error:"este numero desta nota fiscal já foi usado anteriormente."})
     }
 
 

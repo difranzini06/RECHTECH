@@ -58,7 +58,7 @@ app.post("/cadastrousuario", async(req,res)=>{
 })
 
 
-// MODEL DE PRODUTOS
+
 
 
 
